@@ -35,6 +35,11 @@
 		F1000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000002 /* HomeView.swift */; };
 		F1000003 /* CosmosScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000003 /* CosmosScoreView.swift */; };
 		F1000004 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000004 /* CheckInView.swift */; };
+		G1000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000001 /* MainTabView.swift */; };
+		G1000002 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000002 /* QuotesView.swift */; };
+		G1000003 /* CommunityRoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000003 /* CommunityRoadmapView.swift */; };
+		G1000004 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000004 /* ProfileView.swift */; };
+		G1000005 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000005 /* ComingSoonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,11 @@
 		F2000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F2000003 /* CosmosScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScoreView.swift; sourceTree = "<group>"; };
 		F2000004 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		G2000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		G2000002 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		G2000003 /* CommunityRoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRoadmapView.swift; sourceTree = "<group>"; };
+		G2000004 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		G2000005 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +179,14 @@
 		E4000001 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				G2000001 /* MainTabView.swift */,
 				E4000002 /* Auth */,
 				E4000004 /* Home */,
 				E4000003 /* Onboarding */,
+				G4000001 /* Quotes */,
+				G4000002 /* Roadmap */,
+				G4000003 /* Profile */,
+				G4000004 /* Shared */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +223,38 @@
 				F2000004 /* CheckInView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		G4000001 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				G2000002 /* QuotesView.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		G4000002 /* Roadmap */ = {
+			isa = PBXGroup;
+			children = (
+				G2000003 /* CommunityRoadmapView.swift */,
+			);
+			path = Roadmap;
+			sourceTree = "<group>";
+		};
+		G4000003 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				G2000004 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		G4000004 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				G2000005 /* ComingSoonView.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		C4000001 /* CosmosTests */ = {
@@ -348,6 +395,11 @@
 				F1000002 /* HomeView.swift in Sources */,
 				F1000003 /* CosmosScoreView.swift in Sources */,
 				F1000004 /* CheckInView.swift in Sources */,
+				G1000001 /* MainTabView.swift in Sources */,
+				G1000002 /* QuotesView.swift in Sources */,
+				G1000003 /* CommunityRoadmapView.swift in Sources */,
+				G1000004 /* ProfileView.swift in Sources */,
+				G1000005 /* ComingSoonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

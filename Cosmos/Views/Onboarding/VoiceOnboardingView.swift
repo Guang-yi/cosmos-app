@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct VoiceOnboardingView: View {
+    var onComplete: () -> Void = {}
+
     @Environment(AuthService.self) private var auth
     @Environment(FirestoreService.self) private var firestore
     @State private var speechService = SpeechService()
@@ -155,5 +157,6 @@ struct VoiceOnboardingView: View {
         user.id = uid
         try? await firestore.saveUser(user)
         isProcessing = false
+        onComplete()
     }
 }
