@@ -1,0 +1,22 @@
+# Dependencies
+functions/node_modules/
+functions/lib/
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Xcode
+*.xcuserdata
+build/
+DerivedData/
+
+# Environment
+*.local
+.env
+.env.*

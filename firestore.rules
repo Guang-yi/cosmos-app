@@ -1,0 +1,53 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users: user can read/write their own document
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Check-ins: user can read/write their own (userId field matches auth.uid)
+    match /checkIns/{checkInId} {
+      allow read, write: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Cosmos Scores: user can read their own, Cloud Functions can write
+    match /cosmosScores/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      // Cloud Functions use Admin SDK which bypasses rules
+    }
+
+    // Dreams: any authenticated user can read, authenticated can create
+    match /dreams/{dreamId} {
+      allow read, create: if request.auth != null;
+    }
+
+    // Quotes: any authenticated user can read
+    match /quotes/{quoteId} {
+      allow read: if request.auth != null;
+    }
+
+    // Feature Requests: any authenticated user can read/create
+    match /featureRequests/{requestId} {
+      allow read, create: if request.auth != null;
+    }
+
+    // Feature Votes: any authenticated user can read/create
+    match /featureVotes/{voteId} {
+      allow read, create: if request.auth != null;
+    }
+
+    // Referrals: user can read their own
+    match /referrals/{referralId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+    }
+
+    // Community Posts: any authenticated user can read/create
+    match /communityPosts/{postId} {
+      allow read, create: if request.auth != null;
+    }
+  }
+}
