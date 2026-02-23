@@ -31,6 +31,10 @@
 		D1000003 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000003 /* SpeechService.swift */; };
 		D1000004 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000004 /* ClaudeService.swift */; };
 		E1000002 /* VoiceOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000002 /* VoiceOnboardingView.swift */; };
+		F1000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000001 /* HomeViewModel.swift */; };
+		F1000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000002 /* HomeView.swift */; };
+		F1000003 /* CosmosScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000003 /* CosmosScoreView.swift */; };
+		F1000004 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000004 /* CheckInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		D2000003 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		D2000004 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
 		E2000002 /* VoiceOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOnboardingView.swift; sourceTree = "<group>"; };
+		F2000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F2000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2000003 /* CosmosScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScoreView.swift; sourceTree = "<group>"; };
+		F2000004 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 				A2000001 /* CosmosApp.swift */,
 				A2000002 /* ContentView.swift */,
 				B4000001 /* Models */,
+				F4000001 /* ViewModels */,
 				E4000001 /* Views */,
 				D4000001 /* Services */,
 				A2000003 /* Assets.xcassets */,
@@ -161,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				E4000002 /* Auth */,
+				E4000004 /* Home */,
 				E4000003 /* Onboarding */,
 			);
 			path = Views;
@@ -180,6 +190,24 @@
 				E2000001 /* SignInView.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		F4000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2000001 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4000004 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2000002 /* HomeView.swift */,
+				F2000003 /* CosmosScoreView.swift */,
+				F2000004 /* CheckInView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		C4000001 /* CosmosTests */ = {
@@ -316,6 +344,10 @@
 				D1000003 /* SpeechService.swift in Sources */,
 				D1000004 /* ClaudeService.swift in Sources */,
 				E1000002 /* VoiceOnboardingView.swift in Sources */,
+				F1000001 /* HomeViewModel.swift in Sources */,
+				F1000002 /* HomeView.swift in Sources */,
+				F1000003 /* CosmosScoreView.swift in Sources */,
+				F1000004 /* CheckInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
