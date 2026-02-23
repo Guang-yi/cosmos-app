@@ -40,6 +40,11 @@
 		G1000003 /* CommunityRoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000003 /* CommunityRoadmapView.swift */; };
 		G1000004 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000004 /* ProfileView.swift */; };
 		G1000005 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000005 /* ComingSoonView.swift */; };
+		W1000001 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000001 /* SharedDataService.swift */; };
+		W1000002 /* CosmosWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000002 /* CosmosWidget.swift */; };
+		W1000003 /* CosmosWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000003 /* CosmosWidgetBundle.swift */; };
+		W1000004 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000001 /* SharedDataService.swift */; };
+		W1000005 /* CosmosWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = W2000010 /* CosmosWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +55,28 @@
 			remoteGlobalIDString = A6000001;
 			remoteInfo = Cosmos;
 		};
+		W7000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = W6000001;
+			remoteInfo = CosmosWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		W3000004 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				W1000005 /* CosmosWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A2000001 /* CosmosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosApp.swift; sourceTree = "<group>"; };
@@ -83,6 +109,11 @@
 		G2000003 /* CommunityRoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRoadmapView.swift; sourceTree = "<group>"; };
 		G2000004 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		G2000005 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		W2000001 /* SharedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataService.swift; sourceTree = "<group>"; };
+		W2000002 /* CosmosWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWidget.swift; sourceTree = "<group>"; };
+		W2000003 /* CosmosWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWidgetBundle.swift; sourceTree = "<group>"; };
+		W2000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		W2000010 /* CosmosWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CosmosWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +137,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		W3000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A4000002 /* Cosmos */,
+				W4000001 /* CosmosWidget */,
 				C4000001 /* CosmosTests */,
 				A4000004 /* Products */,
 			);
@@ -147,6 +186,7 @@
 			children = (
 				A2000010 /* Cosmos.app */,
 				C2000010 /* CosmosTests.xctest */,
+				W2000010 /* CosmosWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +212,7 @@
 				D2000002 /* FirestoreService.swift */,
 				D2000003 /* SpeechService.swift */,
 				D2000004 /* ClaudeService.swift */,
+				W2000001 /* SharedDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -265,6 +306,16 @@
 			path = CosmosTests;
 			sourceTree = "<group>";
 		};
+		W4000001 /* CosmosWidget */ = {
+			isa = PBXGroup;
+			children = (
+				W2000002 /* CosmosWidget.swift */,
+				W2000003 /* CosmosWidgetBundle.swift */,
+				W2000004 /* Info.plist */,
+			);
+			path = CosmosWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,10 +326,12 @@
 				A3000002 /* Sources */,
 				A3000001 /* Frameworks */,
 				A3000003 /* Resources */,
+				W3000004 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				W7000002 /* PBXTargetDependency */,
 			);
 			name = Cosmos;
 			packageProductDependencies = (
@@ -311,6 +364,23 @@
 			productReference = C2000010 /* CosmosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		W6000001 /* CosmosWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = W8000001 /* Build configuration list for PBXNativeTarget "CosmosWidgetExtension" */;
+			buildPhases = (
+				W3000001 /* Sources */,
+				W3000002 /* Frameworks */,
+				W3000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmosWidgetExtension;
+			productName = CosmosWidgetExtension;
+			productReference = W2000010 /* CosmosWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,6 +397,9 @@
 					C6000001 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = A6000001;
+					};
+					W6000001 = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
@@ -348,6 +421,7 @@
 			targets = (
 				A6000001 /* Cosmos */,
 				C6000001 /* CosmosTests */,
+				W6000001 /* CosmosWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -363,6 +437,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C3000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W3000003 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,6 +481,7 @@
 				G1000003 /* CommunityRoadmapView.swift in Sources */,
 				G1000004 /* ProfileView.swift in Sources */,
 				G1000005 /* ComingSoonView.swift in Sources */,
+				W1000001 /* SharedDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +493,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		W3000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				W1000002 /* CosmosWidget.swift in Sources */,
+				W1000003 /* CosmosWidgetBundle.swift in Sources */,
+				W1000004 /* SharedDataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -418,6 +510,11 @@
 			isa = PBXTargetDependency;
 			target = A6000001 /* Cosmos */;
 			targetProxy = C3000001 /* PBXContainerItemProxy */;
+		};
+		W7000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = W6000001 /* CosmosWidgetExtension */;
+			targetProxy = W7000001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -543,6 +640,7 @@
 		A8000020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +671,7 @@
 		A8000021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,6 +735,56 @@
 			};
 			name = Release;
 		};
+		W8000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CosmosWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CosmosWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		W8000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CosmosWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CosmosWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -662,6 +811,15 @@
 			buildConfigurations = (
 				C8000020 /* Debug */,
 				C8000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		W8000001 /* Build configuration list for PBXNativeTarget "CosmosWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				W8000020 /* Debug */,
+				W8000021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

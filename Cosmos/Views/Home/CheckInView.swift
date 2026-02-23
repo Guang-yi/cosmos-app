@@ -1,4 +1,5 @@
 import SwiftUI
+import WidgetKit
 
 struct CheckInView: View {
     @Environment(AuthService.self) private var auth
@@ -144,6 +145,11 @@ struct CheckInView: View {
         score.userId = uid
         score.date = Date()
         try? await firestore.saveCosmosScore(score)
+
+        // Update widget data
+        let user = try? await firestore.getUser(id: uid)
+        SharedDataService.saveWidgetData(score: score.total, streak: user?.currentStreak ?? 0)
+        WidgetCenter.shared.reloadAllTimelines()
 
         onComplete()
         dismiss()
