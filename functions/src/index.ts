@@ -6,3 +6,5 @@ admin.initializeApp();
 export const helloWorld = functions.https.onCall(async (data, context) => {
   return { message: "Cosmos backend is alive" };
 });
+
+export { chatWithCoach } from "./claude";

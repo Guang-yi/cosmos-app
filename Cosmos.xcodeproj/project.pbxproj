@@ -28,6 +28,9 @@
 		D1000001 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000001 /* AuthService.swift */; };
 		D1000002 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000002 /* FirestoreService.swift */; };
 		E1000001 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000001 /* SignInView.swift */; };
+		D1000003 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000003 /* SpeechService.swift */; };
+		D1000004 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000004 /* ClaudeService.swift */; };
+		E1000002 /* VoiceOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000002 /* VoiceOnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		D2000001 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D2000002 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		E2000001 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D2000003 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		D2000004 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		E2000002 /* VoiceOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,8 @@
 			children = (
 				D2000001 /* AuthService.swift */,
 				D2000002 /* FirestoreService.swift */,
+				D2000003 /* SpeechService.swift */,
+				D2000004 /* ClaudeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -153,8 +161,17 @@
 			isa = PBXGroup;
 			children = (
 				E4000002 /* Auth */,
+				E4000003 /* Onboarding */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E4000003 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E2000002 /* VoiceOnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		E4000002 /* Auth */ = {
@@ -296,6 +313,9 @@
 				D1000001 /* AuthService.swift in Sources */,
 				D1000002 /* FirestoreService.swift in Sources */,
 				E1000001 /* SignInView.swift in Sources */,
+				D1000003 /* SpeechService.swift in Sources */,
+				D1000004 /* ClaudeService.swift in Sources */,
+				E1000002 /* VoiceOnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
