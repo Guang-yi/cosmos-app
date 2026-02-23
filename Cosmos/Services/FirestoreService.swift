@@ -1,9 +1,12 @@
 import Foundation
+import FirebaseCore
 import FirebaseFirestore
 
 @Observable
 class FirestoreService {
-    private let db = Firestore.firestore()
+    private var db: Firestore {
+        Firestore.firestore()
+    }
 
     // MARK: - User
     func saveUser(_ user: CosmosUser) async throws {

@@ -1,4 +1,5 @@
 import Foundation
+import FirebaseCore
 import FirebaseAuth
 import AuthenticationServices
 
@@ -8,6 +9,7 @@ class AuthService {
     var isAuthenticated: Bool { currentUser != nil }
 
     init() {
+        guard FirebaseApp.app() != nil else { return }
         currentUser = Auth.auth().currentUser
         Auth.auth().addStateDidChangeListener { [weak self] _, user in
             self?.currentUser = user

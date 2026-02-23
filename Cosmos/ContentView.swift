@@ -1,11 +1,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Cosmos")
-    }
-}
+    @Environment(AuthService.self) private var auth
 
-#Preview {
-    ContentView()
+    var body: some View {
+        if auth.isAuthenticated {
+            Text("Home — coming in Task 7")
+        } else {
+            SignInView()
+        }
+    }
 }
