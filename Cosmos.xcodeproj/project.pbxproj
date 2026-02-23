@@ -39,6 +39,7 @@
 		G1000002 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000002 /* QuotesView.swift */; };
 		G1000003 /* CommunityRoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000003 /* CommunityRoadmapView.swift */; };
 		G1000004 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000004 /* ProfileView.swift */; };
+		G1000006 /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000006 /* AppIconPickerView.swift */; };
 		G1000005 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000005 /* ComingSoonView.swift */; };
 		W1000001 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000001 /* SharedDataService.swift */; };
 		W1000002 /* CosmosWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000002 /* CosmosWidget.swift */; };
@@ -108,6 +109,7 @@
 		G2000002 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		G2000003 /* CommunityRoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRoadmapView.swift; sourceTree = "<group>"; };
 		G2000004 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		G2000006 /* AppIconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerView.swift; sourceTree = "<group>"; };
 		G2000005 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
 		W2000001 /* SharedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataService.swift; sourceTree = "<group>"; };
 		W2000002 /* CosmosWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWidget.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				G2000004 /* ProfileView.swift */,
+				G2000006 /* AppIconPickerView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				G1000002 /* QuotesView.swift in Sources */,
 				G1000003 /* CommunityRoadmapView.swift in Sources */,
 				G1000004 /* ProfileView.swift in Sources */,
+				G1000006 /* AppIconPickerView.swift in Sources */,
 				G1000005 /* ComingSoonView.swift in Sources */,
 				W1000001 /* SharedDataService.swift in Sources */,
 			);

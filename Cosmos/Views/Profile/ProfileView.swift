@@ -42,7 +42,19 @@ struct ProfileView: View {
                         }
 
                         // Coming soon placeholders
-                        ComingSoonButton(feature: "Change App Icon")
+                        NavigationLink {
+                            AppIconPickerView()
+                        } label: {
+                            HStack {
+                                Text("Change App Icon").foregroundStyle(.white)
+                                Spacer()
+                                Image(systemName: "chevron.right").foregroundStyle(.gray)
+                            }
+                            .padding()
+                            .background(.white.opacity(0.05))
+                            .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .padding(.horizontal)
+                        }
                         ComingSoonButton(feature: "AI Life Coach")
                         ComingSoonButton(feature: "Coach Marketplace")
 

@@ -6,5 +6,32 @@
 	<string>Cosmos uses speech recognition for voice onboarding and journaling.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Cosmos uses the microphone for voice input.</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIconBlue</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIconBlue</string>
+				</array>
+			</dict>
+			<key>AppIconGold</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIconGold</string>
+				</array>
+			</dict>
+			<key>AppIconCosmic</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIconCosmic</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
