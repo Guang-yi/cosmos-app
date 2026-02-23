@@ -25,6 +25,8 @@
 		B1000006 /* FeatureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006 /* FeatureRequest.swift */; };
 		B1000007 /* Referral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007 /* Referral.swift */; };
 		C1000001 /* CosmosScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2000001 /* CosmosScoreTests.swift */; };
+		D1000001 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000001 /* AuthService.swift */; };
+		D1000002 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000002 /* FirestoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B2000007 /* Referral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Referral.swift; sourceTree = "<group>"; };
 		C2000001 /* CosmosScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScoreTests.swift; sourceTree = "<group>"; };
 		C2000010 /* CosmosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2000001 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D2000002 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				A2000001 /* CosmosApp.swift */,
 				A2000002 /* ContentView.swift */,
 				B4000001 /* Models */,
+				D4000001 /* Services */,
 				A2000003 /* Assets.xcassets */,
 				A2000011 /* Info.plist */,
 				A4000003 /* Preview Content */,
@@ -130,6 +135,15 @@
 				B2000007 /* Referral.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D4000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2000001 /* AuthService.swift */,
+				D2000002 /* FirestoreService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		C4000001 /* CosmosTests */ = {
@@ -260,6 +274,8 @@
 				B1000005 /* Quote.swift in Sources */,
 				B1000006 /* FeatureRequest.swift in Sources */,
 				B1000007 /* Referral.swift in Sources */,
+				D1000001 /* AuthService.swift in Sources */,
+				D1000002 /* FirestoreService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
