@@ -8,3 +8,10 @@ export const helloWorld = functions.https.onCall(async (data, context) => {
 });
 
 export { chatWithCoach } from "./claude";
+
+import { seedQuotes } from "./seedQuotes";
+
+export const seedInitialQuotes = functions.https.onCall(async (data, context) => {
+  await seedQuotes();
+  return { success: true, count: 20 };
+});
