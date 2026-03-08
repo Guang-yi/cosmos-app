@@ -11,73 +11,7 @@
 		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
 		A1000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000003 /* Assets.xcassets */; };
 		A1000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Preview Assets.xcassets */; };
-		A1000010 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A5000001 /* FirebaseAuth */; };
-		A1000011 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A5000002 /* FirebaseFirestore */; };
-		A1000012 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = A5000003 /* FirebaseFunctions */; };
-		A1000013 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A5000004 /* FirebaseMessaging */; };
-		A1000014 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A5000005 /* FirebaseStorage */; };
-		A1000015 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A5000006 /* FirebaseAnalytics */; };
-		B1000001 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* User.swift */; };
-		B1000002 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002 /* CheckIn.swift */; };
-		B1000003 /* CosmosScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003 /* CosmosScore.swift */; };
-		B1000004 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004 /* Dream.swift */; };
-		B1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000005 /* Quote.swift */; };
-		B1000006 /* FeatureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006 /* FeatureRequest.swift */; };
-		B1000007 /* Referral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007 /* Referral.swift */; };
-		C1000001 /* CosmosScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2000001 /* CosmosScoreTests.swift */; };
-		D1000001 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000001 /* AuthService.swift */; };
-		D1000002 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000002 /* FirestoreService.swift */; };
-		E1000001 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000001 /* SignInView.swift */; };
-		D1000003 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000003 /* SpeechService.swift */; };
-		D1000004 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2000004 /* ClaudeService.swift */; };
-		E1000002 /* VoiceOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000002 /* VoiceOnboardingView.swift */; };
-		F1000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000001 /* HomeViewModel.swift */; };
-		F1000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000002 /* HomeView.swift */; };
-		F1000003 /* CosmosScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000003 /* CosmosScoreView.swift */; };
-		F1000004 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000004 /* CheckInView.swift */; };
-		G1000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000001 /* MainTabView.swift */; };
-		G1000002 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000002 /* QuotesView.swift */; };
-		G1000003 /* CommunityRoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000003 /* CommunityRoadmapView.swift */; };
-		G1000004 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000004 /* ProfileView.swift */; };
-		G1000006 /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000006 /* AppIconPickerView.swift */; };
-		G1000005 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2000005 /* ComingSoonView.swift */; };
-		W1000001 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000001 /* SharedDataService.swift */; };
-		W1000002 /* CosmosWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000002 /* CosmosWidget.swift */; };
-		W1000003 /* CosmosWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000003 /* CosmosWidgetBundle.swift */; };
-		W1000004 /* SharedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W2000001 /* SharedDataService.swift */; };
-		W1000005 /* CosmosWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = W2000010 /* CosmosWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C3000001 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7000001 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6000001;
-			remoteInfo = Cosmos;
-		};
-		W7000001 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7000001 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = W6000001;
-			remoteInfo = CosmosWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		W3000004 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				W1000005 /* CosmosWidgetExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A2000001 /* CosmosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosApp.swift; sourceTree = "<group>"; };
@@ -86,60 +20,10 @@
 		A2000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2000010 /* Cosmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2000001 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B2000002 /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
-		B2000003 /* CosmosScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScore.swift; sourceTree = "<group>"; };
-		B2000004 /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
-		B2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		B2000006 /* FeatureRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRequest.swift; sourceTree = "<group>"; };
-		B2000007 /* Referral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Referral.swift; sourceTree = "<group>"; };
-		C2000001 /* CosmosScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScoreTests.swift; sourceTree = "<group>"; };
-		C2000010 /* CosmosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2000001 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		D2000002 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
-		E2000001 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		D2000003 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
-		D2000004 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
-		E2000002 /* VoiceOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOnboardingView.swift; sourceTree = "<group>"; };
-		F2000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		F2000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		F2000003 /* CosmosScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosScoreView.swift; sourceTree = "<group>"; };
-		F2000004 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
-		G2000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		G2000002 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
-		G2000003 /* CommunityRoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRoadmapView.swift; sourceTree = "<group>"; };
-		G2000004 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		G2000006 /* AppIconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerView.swift; sourceTree = "<group>"; };
-		G2000005 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
-		W2000001 /* SharedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataService.swift; sourceTree = "<group>"; };
-		W2000002 /* CosmosWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWidget.swift; sourceTree = "<group>"; };
-		W2000003 /* CosmosWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWidgetBundle.swift; sourceTree = "<group>"; };
-		W2000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		W2000010 /* CosmosWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CosmosWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A3000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1000010 /* FirebaseAuth in Frameworks */,
-				A1000011 /* FirebaseFirestore in Frameworks */,
-				A1000012 /* FirebaseFunctions in Frameworks */,
-				A1000013 /* FirebaseMessaging in Frameworks */,
-				A1000014 /* FirebaseStorage in Frameworks */,
-				A1000015 /* FirebaseAnalytics in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3000002 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		W3000002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,8 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				A4000002 /* Cosmos */,
-				W4000001 /* CosmosWidget */,
-				C4000001 /* CosmosTests */,
 				A4000004 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,10 +46,6 @@
 			children = (
 				A2000001 /* CosmosApp.swift */,
 				A2000002 /* ContentView.swift */,
-				B4000001 /* Models */,
-				F4000001 /* ViewModels */,
-				E4000001 /* Views */,
-				D4000001 /* Services */,
 				A2000003 /* Assets.xcassets */,
 				A2000011 /* Info.plist */,
 				A4000003 /* Preview Content */,
@@ -187,136 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				A2000010 /* Cosmos.app */,
-				C2000010 /* CosmosTests.xctest */,
-				W2000010 /* CosmosWidgetExtension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B4000001 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B2000001 /* User.swift */,
-				B2000002 /* CheckIn.swift */,
-				B2000003 /* CosmosScore.swift */,
-				B2000004 /* Dream.swift */,
-				B2000005 /* Quote.swift */,
-				B2000006 /* FeatureRequest.swift */,
-				B2000007 /* Referral.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D4000001 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				D2000001 /* AuthService.swift */,
-				D2000002 /* FirestoreService.swift */,
-				D2000003 /* SpeechService.swift */,
-				D2000004 /* ClaudeService.swift */,
-				W2000001 /* SharedDataService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		E4000001 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				G2000001 /* MainTabView.swift */,
-				E4000002 /* Auth */,
-				E4000004 /* Home */,
-				E4000003 /* Onboarding */,
-				G4000001 /* Quotes */,
-				G4000002 /* Roadmap */,
-				G4000003 /* Profile */,
-				G4000004 /* Shared */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E4000003 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				E2000002 /* VoiceOnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		E4000002 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E2000001 /* SignInView.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		F4000001 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				F2000001 /* HomeViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		E4000004 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				F2000002 /* HomeView.swift */,
-				F2000003 /* CosmosScoreView.swift */,
-				F2000004 /* CheckInView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		G4000001 /* Quotes */ = {
-			isa = PBXGroup;
-			children = (
-				G2000002 /* QuotesView.swift */,
-			);
-			path = Quotes;
-			sourceTree = "<group>";
-		};
-		G4000002 /* Roadmap */ = {
-			isa = PBXGroup;
-			children = (
-				G2000003 /* CommunityRoadmapView.swift */,
-			);
-			path = Roadmap;
-			sourceTree = "<group>";
-		};
-		G4000003 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				G2000004 /* ProfileView.swift */,
-				G2000006 /* AppIconPickerView.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		G4000004 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				G2000005 /* ComingSoonView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		C4000001 /* CosmosTests */ = {
-			isa = PBXGroup;
-			children = (
-				C2000001 /* CosmosScoreTests.swift */,
-			);
-			path = CosmosTests;
-			sourceTree = "<group>";
-		};
-		W4000001 /* CosmosWidget */ = {
-			isa = PBXGroup;
-			children = (
-				W2000002 /* CosmosWidget.swift */,
-				W2000003 /* CosmosWidgetBundle.swift */,
-				W2000004 /* Info.plist */,
-			);
-			path = CosmosWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,60 +79,17 @@
 				A3000002 /* Sources */,
 				A3000001 /* Frameworks */,
 				A3000003 /* Resources */,
-				W3000004 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				W7000002 /* PBXTargetDependency */,
 			);
 			name = Cosmos;
 			packageProductDependencies = (
-				A5000001 /* FirebaseAuth */,
-				A5000002 /* FirebaseFirestore */,
-				A5000003 /* FirebaseFunctions */,
-				A5000004 /* FirebaseMessaging */,
-				A5000005 /* FirebaseStorage */,
-				A5000006 /* FirebaseAnalytics */,
 			);
 			productName = Cosmos;
 			productReference = A2000010 /* Cosmos.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C6000001 /* CosmosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8000003 /* Build configuration list for PBXNativeTarget "CosmosTests" */;
-			buildPhases = (
-				C3000003 /* Sources */,
-				C3000002 /* Frameworks */,
-				C3000004 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3000005 /* PBXTargetDependency */,
-			);
-			name = CosmosTests;
-			productName = CosmosTests;
-			productReference = C2000010 /* CosmosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		W6000001 /* CosmosWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = W8000001 /* Build configuration list for PBXNativeTarget "CosmosWidgetExtension" */;
-			buildPhases = (
-				W3000001 /* Sources */,
-				W3000002 /* Frameworks */,
-				W3000003 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CosmosWidgetExtension;
-			productName = CosmosWidgetExtension;
-			productReference = W2000010 /* CosmosWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -397,13 +104,6 @@
 					A6000001 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					C6000001 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = A6000001;
-					};
-					W6000001 = {
-						CreatedOnToolsVersion = 16.2;
-					};
 				};
 			};
 			buildConfigurationList = A8000001 /* Build configuration list for PBXProject "Cosmos" */;
@@ -416,15 +116,12 @@
 			);
 			mainGroup = A4000001;
 			packageReferences = (
-				A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = A4000004 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A6000001 /* Cosmos */,
-				C6000001 /* CosmosTests */,
-				W6000001 /* CosmosWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -439,20 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3000004 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		W3000003 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -462,65 +145,10 @@
 			files = (
 				A1000001 /* CosmosApp.swift in Sources */,
 				A1000002 /* ContentView.swift in Sources */,
-				B1000001 /* User.swift in Sources */,
-				B1000002 /* CheckIn.swift in Sources */,
-				B1000003 /* CosmosScore.swift in Sources */,
-				B1000004 /* Dream.swift in Sources */,
-				B1000005 /* Quote.swift in Sources */,
-				B1000006 /* FeatureRequest.swift in Sources */,
-				B1000007 /* Referral.swift in Sources */,
-				D1000001 /* AuthService.swift in Sources */,
-				D1000002 /* FirestoreService.swift in Sources */,
-				E1000001 /* SignInView.swift in Sources */,
-				D1000003 /* SpeechService.swift in Sources */,
-				D1000004 /* ClaudeService.swift in Sources */,
-				E1000002 /* VoiceOnboardingView.swift in Sources */,
-				F1000001 /* HomeViewModel.swift in Sources */,
-				F1000002 /* HomeView.swift in Sources */,
-				F1000003 /* CosmosScoreView.swift in Sources */,
-				F1000004 /* CheckInView.swift in Sources */,
-				G1000001 /* MainTabView.swift in Sources */,
-				G1000002 /* QuotesView.swift in Sources */,
-				G1000003 /* CommunityRoadmapView.swift in Sources */,
-				G1000004 /* ProfileView.swift in Sources */,
-				G1000006 /* AppIconPickerView.swift in Sources */,
-				G1000005 /* ComingSoonView.swift in Sources */,
-				W1000001 /* SharedDataService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3000003 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1000001 /* CosmosScoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		W3000001 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				W1000002 /* CosmosWidget.swift in Sources */,
-				W1000003 /* CosmosWidgetBundle.swift in Sources */,
-				W1000004 /* SharedDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C3000005 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6000001 /* Cosmos */;
-			targetProxy = C3000001 /* PBXContainerItemProxy */;
-		};
-		W7000002 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = W6000001 /* CosmosWidgetExtension */;
-			targetProxy = W7000001 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A8000010 /* Debug */ = {
@@ -644,12 +272,12 @@
 		A8000020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cosmos/Preview Content\"";
+				DEVELOPMENT_TEAM = L4SY7842MZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cosmos/Info.plist;
@@ -664,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulee.cosmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -675,12 +303,12 @@
 		A8000021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cosmos/Preview Content\"";
+				DEVELOPMENT_TEAM = L4SY7842MZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cosmos/Info.plist;
@@ -695,94 +323,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulee.cosmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C8000020 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cosmos";
-			};
-			name = Debug;
-		};
-		C8000021 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cosmos";
-			};
-			name = Release;
-		};
-		W8000020 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CosmosWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CosmosWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		W8000021 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CosmosWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CosmosWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cosmos.app.CosmosWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -810,69 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8000003 /* Build configuration list for PBXNativeTarget "CosmosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8000020 /* Debug */,
-				C8000021 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		W8000001 /* Build configuration list for PBXNativeTarget "CosmosWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				W8000020 /* Debug */,
-				W8000021 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A5000001 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		A5000002 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		A5000003 /* FirebaseFunctions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFunctions;
-		};
-		A5000004 /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-		A5000005 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		A5000006 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7000001 /* Project object */;
 }
